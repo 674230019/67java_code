@@ -46,12 +46,12 @@ static int findMin(int[] numbers){
 }
 
     // 5) Method สำหรับแสดงค่าใน array ทั้งหมด
-// static void displayarray(int[] number){
-//  for(int i = 0; i <number.length; i++){
-//     System.out.print(number[i] + " ");
-//  }
-//  System.out.println();
-// }
+static void displayarray(int[] number){
+ for(int i = 0; i <number.length; i++){
+    System.out.print(number[i] + " ");
+ }
+ System.out.println();
+}
 
 
     public static void main(String[] args) {
